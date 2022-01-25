@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.github.latokike.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemStackMixin",
+    "ModifyBehaviorMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  },
+  "refmap": "SpilaioOrigins-refmap.json"
+}
