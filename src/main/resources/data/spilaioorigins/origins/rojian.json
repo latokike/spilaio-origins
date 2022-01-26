@@ -7,7 +7,8 @@
     "spilaioorigins:redstone_enhanced",
     "spilaioorigins:human_corrosion",
     "spilaioorigins:tank",
-    "origins:more_exhaustion"
+    "origins:more_exhaustion",
+    "spilaioorigins:powered"
   ],
   "upgrades": [
     {

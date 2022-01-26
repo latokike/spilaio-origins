@@ -1,7 +1,7 @@
 {
-	"replace": false,
-	"origins": [
-		"spilaioorigins:shroomatid",
-		"spilaioorigins:rojian"
-	]
+  "replace": false,
+  "origins": [
+	  "spilaioorigins:shroomatid",
+    "spilaioorigins:rojian"
+  ]
 }
