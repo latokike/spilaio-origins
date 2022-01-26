@@ -1,0 +1,21 @@
+{
+  "powers": [
+    "spilaioorigins:robotic_eye",
+    "spilaioorigins:half_organic",
+    "spilaioorigins:sinking",
+    "spilaioorigins:no_elytra",
+    "spilaioorigins:redstone_enhanced",
+    "spilaioorigins:human_corrosion",
+    "spilaioorigins:tank",
+    "origins:more_exhaustion"
+  ],
+  "upgrades": [
+    {
+      "condition": "minecraft:end/respawn_dragon",
+      "origin": "spilaioorigins:nesiji"
+    }
+  ],
+  "icon": "piston",
+  "order": 1,
+  "impact": 2
+}

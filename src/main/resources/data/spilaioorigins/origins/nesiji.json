@@ -1,0 +1,13 @@
+{
+  "powers": [
+    "spilaioorigins:robotic_eyes",
+    "spilaioorigins:sinking",
+    "spilaioorigins:no_elytra",
+    "spilaioorigins:redstone_body",
+    "spilaioorigins:inorganic",
+    "spilaioorigins:metal_plating"
+  ],
+  "icon": "observer",
+  "order": 1,
+  "impact": 3
+}

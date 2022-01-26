@@ -1,0 +1,22 @@
+{
+  "type": "origins:multiple",
+  "1": {
+    "type": "origins:restrict_armor",
+    "chest": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "elytra"
+      }
+    }
+  },
+  "2": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "elytra"
+      }
+    }
+  },
+  "hidden": true
+}

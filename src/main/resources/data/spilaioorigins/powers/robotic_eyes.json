@@ -1,0 +1,11 @@
+{
+  "type": "origins:multiple",
+  "night_vision": {
+    "type": "origins:night_vision",
+    "strength": 0.6
+  },
+  "shader": {
+    "type": "origins:shader",
+    "shader": "spilaioorigins:shaders/robotic.json"
+  }
+}
