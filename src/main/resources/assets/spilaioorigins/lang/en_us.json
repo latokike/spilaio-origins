@@ -38,5 +38,8 @@
   "power.spilaioorigins.redstone_body.description": "Your body is primary made out of redstone instead of water, causing interesting abilities to develop.",
 
   "death.attack.waterAbsorption": "%1$s drank too much water",
-  "death.attack.waterAbsorption.player": "%1$s drank too much water while being chased by %2$s"
+  "death.attack.waterAbsorption.player": "%1$s drank too much water while being chased by %2$s",
+
+  "item.spilaioorigins.spore_item": "Spore",
+  "item.spilaioorigins.poison_breath_item": "Poison Ball"
 }
