@@ -3,6 +3,6 @@
   "cooldown": 500,
   "hud_render": {
     "should_render": true,
-    "bar_index": 5
+    "bar_index": -1
   }
 }
