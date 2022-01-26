@@ -1,8 +1,17 @@
 {
   "type": "origins:fire_projectile",
   "cooldown": 500,
+  "entity_type": "spilaioorigins:spore",
+  "speed": 0.2,
+  "divergence": 2,
+  "count": 20,
+  "key": {
+    "key": "key.origins.primary_active",
+    "continuous": false
+  }
   "hud_render": {
-    "should_render": true,
+    "sprite_location": "spilaioorigins:textures/gui/ability_bars.png",
+    "should_render": false,
     "bar_index": -1
   }
 }
