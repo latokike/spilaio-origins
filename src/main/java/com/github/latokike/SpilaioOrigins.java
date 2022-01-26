@@ -35,6 +35,8 @@ public class SpilaioOrigins implements ModInitializer {
 		ModEvents.init();
 //		ModScaleTypes.init();
 		ModPowers.init();
+		ModItems.init();
+		ModEntities.init();
 	}
 
 	public static Identifier identifier(String path) {
