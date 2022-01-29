@@ -11,3 +11,5 @@ For setup instructions please see the [fabric wiki page](https://fabricmc.net/wi
 
 ## Custom Pronunciation:
 Shroomatid: Shroom-ah-tidd\
+Rojian: Row-gee-an\
+Nesiji: Ness-ee-gee\
