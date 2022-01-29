@@ -1,24 +1,50 @@
+
 {
-  "type": "origins:damage_over_time",
-  "interval": 20,
-  "onset_delay": 300,
-  "damage": 2,
-  "damage_easy": 1,
-  "damage_source": {
-    "name": "waterAbsorption",
-    "unblockable": true,
-    "bypasses_armor": true
+  "type": "origins:active_self",
+  "key": {
+    "key": "key.use"
   },
-  "protection_enchantment": "origins:water_protection",
-  "protection_effectiveness": 1.0,
+  "hud_render": {
+    "should_render": false
+  },
+  "cooldown": 10,
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:feed",
+        "food": 1.0,
+        "saturation": 1.0
+      },
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
+        }
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.player.burp"
+      }
+    ]
+  },
   "condition": {
-    "type": "origins:or",
+    "type": "origins:and",
     "conditions": [
       {
-        "type": "origins:fluid_height",
-        "fluid": "minecraft:water",
-        "comparison": ">",
-        "compare_to": 0.0
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "item": "redstone"
+          }
+        }
+      },
+      {
+        "type": "origins:sneaking"
       }
     ]
   }
