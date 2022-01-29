@@ -14,7 +14,7 @@
   },
   "cooldown": 0,
   "hud_render": {
-    "should_render": true,
-    "bar_index": 5
+    "should_render": false,
+    "bar_index": 0
   }
 }

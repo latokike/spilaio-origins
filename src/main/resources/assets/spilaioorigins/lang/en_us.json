@@ -1,6 +1,6 @@
 {
-  "origin.spilaioorigins.nesji.name": "Nesji",
-  "origin.spilaioorigins.nesji.description": "The result of a rojian losing the last of their humanity. They require power from redstone.",
+  "origin.spilaioorigins.nesiji.name": "Nesiji",
+  "origin.spilaioorigins.nesiji.description": "The result of a rojian losing the last of their humanity. They require power from redstone.",
   "origin.spilaioorigins.rojian.name": "Rojian",
   "origin.spilaioorigins.rojian.description": "The rojian are a subspecies of humans. They are enhanced by redstone at the cost of their humanity over time.",
   "origin.spilaioorigins.shroomatid.name": "Shroomatid",
@@ -23,10 +23,10 @@
   "power.spilaioorigins.robotic_eye.name": "Robotic Eye",
   "power.spilaioorigins.robotic_eye.description": "Your robotic implants allow you to see in the dark",
   "power.spilaioorigins.robotic_eyes.name": "Robotic Eyes",
-  "power.spilaioorigins.robotic_eyes.description": "Both of your eyes have robotic implants, giving your vision a green tint, and giving you stronger night vision.",
+  "power.spilaioorigins.robotic_eyes.description": "Both of your eyes have robotic implants, making you lose most of your ability to see color, and giving you strong night vision.",
   "power.spilaioorigins.sinking.name": "Weighted Frame",
   "power.spilaioorigins.sinking.description": "Your weighted body makes it impossible to swim or use an elytra.",
-  "power.spilaioorigins.tank.name": "Tanky",
+  "power.spilaioorigins.tank.name": "Tank",
   "power.spilaioorigins.tank.description": "As you are enhanced by redstone, your defense is also enhanced.",
   "power.spilaioorigins.metal_plating.name": "Metal Plating",
   "power.spilaioorigins.metal_plating.description": "Due to metal plating on your body, you are much more defended than you used to be.",
@@ -36,6 +36,10 @@
   "power.spilaioorigins.redstone_enhanced.description": "Your body and mind are enhanced by redstone, making you faster and stronger.",
   "power.spilaioorigins.redstone_body.name": "Redstone Body",
   "power.spilaioorigins.redstone_body.description": "Your body is primary made out of redstone instead of water, causing interesting abilities to develop.",
+  "power.spilaioorigins.inorganic.name": "Redstone Reliant",
+  "power.spilaioorigins.inorganic.description": "You are made primarily out of robotic parts to keep you together, and as a result cannot eat normal food. You need redstone for power.",
+  "power.spilaioorigins.underground_life.name": "Underground Inhabitant",
+  "power.spilaioorigins.underground_life.description": "Due to being in the nether or underground primarily, you are better at mining, but slower on the surface.",
 
   "death.attack.waterAbsorption": "%1$s drank too much water",
   "death.attack.waterAbsorption.player": "%1$s drank too much water while being chased by %2$s"

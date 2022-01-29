@@ -1,3 +1,26 @@
 {
-  "type": "origins:"
+  "type": "origins:multiple",
+  "mining_speed": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "multiply_base",
+      "value": 0.5
+    },
+    "condition": {
+      "type": "origins:exposed_to_sky",
+      "inverted": true
+    }
+  },
+  "land_reduction": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "value": -0.3
+    },
+    "tick_rate": 20,
+    "condition": {
+      "type": "origins:exposed_to_sky"
+    }
+  }
 }

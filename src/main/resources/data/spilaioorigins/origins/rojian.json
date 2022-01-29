@@ -12,8 +12,9 @@
   ],
   "upgrades": [
     {
-      "condition": "minecraft:end/respawn_dragon",
-      "origin": "spilaioorigins:nesiji"
+      "condition": "minecraft:story/iron_tools",
+      "origin": "spilaioorigins:nesiji",
+      "announcement": "You have killed an ender dragon! You have evolved to Nesiji"
     }
   ],
   "icon": "piston",
