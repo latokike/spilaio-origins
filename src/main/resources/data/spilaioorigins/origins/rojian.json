@@ -7,14 +7,12 @@
     "spilaioorigins:redstone_enhanced",
     "spilaioorigins:human_corrosion",
     "spilaioorigins:tank",
-    "origins:more_exhaustion",
     "spilaioorigins:powered"
   ],
   "upgrades": [
     {
-      "condition": "minecraft:story/iron_tools",
-      "origin": "spilaioorigins:nesiji",
-      "announcement": "You have killed an ender dragon! You have evolved to Nesiji"
+      "condition": "minecraft:end/respawn_dragon",
+      "origin": "spilaioorigins:nesiji"
     }
   ],
   "icon": "piston",
