@@ -13,4 +13,4 @@ For setup instructions please see the [fabric wiki page](https://fabricmc.net/wi
 Shroomatid: Shroom-ah-tidd\
 Rojian: Row-gee-an\
 Nesiji: Ness-ee-gee\
-Alliqe: Ahl-ee-qe
+Alliqe: Ah-leek
