@@ -7,9 +7,20 @@
   },
   "retain_state": false,
   "condition": {
-    "type": "origins:resource",
-    "resource": "spilaioorigins:toggle_flight_con",
-    "comparison": ">",
-    "compare_to": 1
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:resource",
+        "resource": "spilaioorigins:toggle_flight_con",
+        "comparison": ">",
+        "compare_to": 1
+      },
+      {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": "<=",
+        "compare_to": 0.0
+      }
+    ]
   }
 }
