@@ -1,6 +1,10 @@
 {
   "powers": [
-    "spilaioorigins:n/a"
+    "spilaioorigins:flight_toggle",
+    "spilaioorigins:flight_ability",
+    "spilaioorigins:alliqe_possesion",
+    "spilaioorigins:toggle_flight_con",
+    "origins:fragile"
   ],
   "icon": "broken_elytra",
   "order": 1,
