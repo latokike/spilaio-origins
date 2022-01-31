@@ -1,0 +1,41 @@
+{
+  "type": "origins:multiple",
+  "flight_ability": {
+    "type": "origins:creative_flight",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "spilaioorigins:flight_toggle"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "spilaioorigins:toggle_flight_con",
+          "comparison": ">",
+          "compare_to": 1
+        }
+      ]
+    }
+  },
+  "add_resource": {
+    "type": "origins:change_resource",
+    "resource": "spilaioorigins:toggle_flight_con",
+    "change": 0.01,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:power_active",
+          "power": "spilaioorigins:flight_toggle"
+        },
+        {
+          "type": "origins:resource",
+          "resource": "spilaioorigins:toggle_flight_con",
+          "comparison": ">",
+          "compare_to": 1
+        }
+      ]
+    }
+  }
+}
