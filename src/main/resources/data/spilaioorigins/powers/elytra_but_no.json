@@ -1,0 +1,21 @@
+{
+  "type": "origins:multiple",
+  "create_elytra": {
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+  },
+  "prevent_elytra_use": {
+    "type": "origins:prevent_elytra_flight",
+    "condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "chest",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:eyltra"
+        }
+      },
+      "inverted": true
+    }
+  }
+}
