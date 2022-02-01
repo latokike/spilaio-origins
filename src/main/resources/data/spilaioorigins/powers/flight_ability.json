@@ -14,6 +14,12 @@
           "resource": "spilaioorigins:toggle_flight_con",
           "comparison": ">",
           "compare_to": 1
+        },
+        {
+          "type": "origins:resource",
+          "resource": "spilaioorigins:wetness",
+          "comparison": "<=",
+          "compare_to": 0.1
         }
       ]
     }
@@ -38,12 +44,6 @@
           "resource": "spilaioorigins:toggle_flight_con",
           "comparison": ">",
           "compare_to": 1
-        },
-        {
-          "type": "origins:fluid_height",
-          "fluid": "minecraft:water",
-          "comparison": "<=",
-          "compare_to": 0.0
         }
       ]
     }
