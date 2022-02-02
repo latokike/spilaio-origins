@@ -3,12 +3,12 @@
     "spilaioorigins:wetness",
     "spilaioorigins:flight_toggle",
     "spilaioorigins:flight_ability",
-    "spilaioorigins:alliqe_possesion",
+    "spilaioorigins:alliqe_possession",
     "spilaioorigins:toggle_flight_con",
     "spilaioorigins:elytra_but_no",
     "origins:fragile"
   ],
-  "icon": "broken_elytra",
+  "icon": "music_disc_11",
   "order": 1,
   "impact": 3
 }

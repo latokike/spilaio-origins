@@ -29,7 +29,7 @@
   	"entity_action": {
       "type": "origins:change_resource",
       "resource": "spilaioorigins:toggle_flight_con",
-      "change": 0.01,
+      "change": 0.01
   	},
   	"interval": 1,
     "condition": {

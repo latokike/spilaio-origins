@@ -1,10 +1,6 @@
 {
   "type": "origins:toggle",
   "active_by_default": false,
-  "type": "origins:toggle",
-  "key": {
-    "key": "key.origins.primary_active"
-  },
   "retain_state": false,
   "condition": {
     "type": "origins:and",

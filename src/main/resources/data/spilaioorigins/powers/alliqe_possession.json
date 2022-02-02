@@ -1,0 +1,9 @@
+{
+  "type": "origins:inventory",
+  "title": "container.alliqe_possesion",
+  "drop_on_death": false,
+  "key": {
+    "key": "key.origins.secondary_active",
+    "continuous": false
+  }
+}

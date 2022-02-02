@@ -1,8 +1,9 @@
 {
   "replace": false,
   "origins": [
-	  "spilaioorigins:shroomatid",
-      "spilaioorigins:rojian",
-      "spilaioorigins:nesiji"
+	"spilaioorigins:shroomatid",
+    "spilaioorigins:rojian",
+    "spilaioorigins:nesiji",
+    "spilaioorigins:alliqe"
   ]
 }
