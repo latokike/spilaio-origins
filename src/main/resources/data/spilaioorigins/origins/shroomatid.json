@@ -8,9 +8,9 @@
     "spilaioorigins:mushroom_vision",
     "spilaioorigins:invasive_species",
     "spilaioorigins:underground_life",
+    "spilaioorigins:nether_inhabitant",
     "origins:more_exhaustion",
-    "origins:burning_wrath",
-    "origins:nether_spawn"
+    "origins:burning_wrath"
   ],
   "icon": "warped_fungus",
   "order": 1,
