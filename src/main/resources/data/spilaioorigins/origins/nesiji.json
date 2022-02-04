@@ -5,7 +5,8 @@
     "spilaioorigins:no_elytra",
     "spilaioorigins:redstone_body",
     "spilaioorigins:inorganic",
-    "spilaioorigins:metal_plating"
+    "spilaioorigins:metal_plating",
+    "spilaioorigins:rain_deterrent"
   ],
   "unchoosable": true,
   "icon": "observer",
