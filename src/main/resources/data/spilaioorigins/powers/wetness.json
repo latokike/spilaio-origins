@@ -1,43 +1,10 @@
 {
-  "type": "origins:multiple",
-  "bar": {
-    "type": "origins:resource",
-    "min": 0,
-    "max": 100,
-    "hud_render": {
-      "should_render": true,
-      "bar_index": 1
-    }
+  "type": "origins:resource",
+  "min": 0,
+  "max": 2000,
+  "hud_render": {
+    "should_render": false,
+    "bar_index": 0
   },
-  "increment": {
-  	"type": "origins:action_over_time",
-  	"entity_action": {
-      "type": "origins:change_resource",
-      "resource": "spilaioorigins:wetness.bar",
-      "change": 1
-  	},
-  	"interval": 1,
-  	"condition": {
-      "type": "origins:fluid_height",
-      "fluid": "minecraft:water",
-      "comparison": ">",
-      "compare_to": 0.0
-    }
-  },
-  "decrement": {
-    "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "spilaioorigins:wetness.bar",
-      "change": -5
-    },
-    "interval": 1,
-    "condition": {
-      "type": "origins:fluid_height",
-      "fluid": "minecraft:water",
-      "comparison": ">",
-      "compare_to": 0.0,
-      "inverted": true
-    }
-  }
+  "hidden": true
 }

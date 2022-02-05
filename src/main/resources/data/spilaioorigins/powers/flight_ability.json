@@ -1,49 +1,27 @@
 {
   "type": "origins:multiple",
-  "flight_ability": {
+  "flight": {
     "type": "origins:creative_flight",
     "condition": {
       "type": "origins:and",
       "conditions": [
         {
-          "type": "origins:power_active",
-          "power": "spilaioorigins:flight_toggle"
-        },
-        {
           "type": "origins:resource",
           "resource": "spilaioorigins:toggle_flight_con",
-          "comparison": ">",
-          "compare_to": 1
+          "comparison": "<",
+          "compare_to": 1000
         },
         {
           "type": "origins:resource",
           "resource": "spilaioorigins:wetness",
           "comparison": "<=",
-          "compare_to": 0.1
-        }
-      ]
-    }
-  },
-  "add_resource": {
-    "type": "origins:action_over_time",
-  	"entity_action": {
-      "type": "origins:change_resource",
-      "resource": "spilaioorigins:toggle_flight_con",
-      "change": 0.01
-  	},
-  	"interval": 1,
-    "condition": {
-      "type": "origins:and",
-      "conditions": [
-        {
-          "type": "origins:power_active",
-          "power": "spilaioorigins:flight_toggle"
+          "compare_to": 200
         },
         {
           "type": "origins:resource",
-          "resource": "spilaioorigins:toggle_flight_con",
-          "comparison": ">",
-          "compare_to": 1
+          "resource": "spilaioorigins:hot_resource",
+          "comparison": "<=",
+          "compare_to": 200
         }
       ]
     }

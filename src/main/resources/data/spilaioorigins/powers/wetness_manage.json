@@ -1,0 +1,84 @@
+{
+  "type": "origins:multiple",
+  "increment": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "spilaioorigins:wetness",
+      "change": 20
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0.0
+        },
+        {
+          "type": "origins:in_rain"
+        }
+      ]
+    }
+  },
+  "decrement": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "spilaioorigins:wetness",
+      "change": -1
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": ">",
+      "compare_to": 0.0,
+      "inverted": true
+    }
+  },
+  "model": {
+    "type": "origins:model_color",
+    "red": 0.7,
+    "green": 0.7,
+    "blue": 0.75,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "spilaioorigins:wetness",
+      "comparison": ">=",
+      "compare_to": 200
+    }
+  },
+  "particles": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:chance",
+      "action": {
+        "type": "origins:spawn_particles",
+        "particle": {
+          "type": "minecraft:dripping_water",
+          "params": "0.922 0.314 0.314 2"
+        },
+        "count": 1,
+        "speed": 0.0,
+        "force": true,
+        "spread": {
+          "x": 0.25,
+          "y": 0.5,
+          "z": 0.25
+        }
+      },
+      "chance": 0.1
+    },
+    "interval": 2,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "spilaioorigins:wetness",
+      "comparison": ">=",
+      "compare_to": 200
+    }
+  },
+  "hidden": true
+}

@@ -1,12 +1,14 @@
 {
   "powers": [
-    "spilaioorigins:ghostly",
+    "spilaioorigins:hot",
     "spilaioorigins:wetness",
-    "spilaioorigins:flight_toggle",
+    "spilaioorigins:flight_manage",
     "spilaioorigins:flight_ability",
+    "spilaioorigins:wetness_manage",
     "spilaioorigins:alliqe_possession",
     "spilaioorigins:toggle_flight_con",
     "spilaioorigins:elytra_but_no",
+    "origins:fall_immunity",
     "origins:fragile"
   ],
   "icon": "music_disc_11",

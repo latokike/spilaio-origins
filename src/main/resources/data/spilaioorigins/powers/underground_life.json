@@ -24,14 +24,14 @@
     }
   },
   "weakness": {
-        "type": "origins:conditioned_attribute",
-        "modifier": {
-            "attribute": "minecraft:generic.attack_damage",
-            "operation": "multiply_base",
-            "value": -0.25
-        },
-        "condition": {
-            "type": "origins:exposed_to_sun"
-        }
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_base",
+      "value": -0.25
+    },
+    "condition": {
+      "type": "origins:exposed_to_sun"
     }
+  }
 }

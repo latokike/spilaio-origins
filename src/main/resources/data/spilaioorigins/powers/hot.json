@@ -1,0 +1,59 @@
+{
+  "type": "origins:multiple",
+  "resource": {
+    "type": "origins:resource",
+    "min": 0,
+    "max": 1000,
+    "hud_render": {
+      "should_render": false,
+      "bar_index": 0
+    },
+    "hidden": true
+  },
+  "model": {
+    "type": "origins:model_color",
+    "red": 1.0,
+    "green": 0.7,
+    "blue": 0.7,
+    "condition": {
+      "type": "origins:resource",
+      "resource": "spilaioorigins:hot_resource",
+      "comparison": ">=",
+      "compare_to": 200
+    }
+  },
+  "manage_increment": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "spilaioorigins:hot_resource",
+      "change": 10
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:biome",
+      "condition": {
+        "type": "origins:temperature",
+        "comparison": ">=",
+        "compare_to": 2
+      }
+    }
+  },
+  "manage_decrement": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "spilaioorigins:hot_resource",
+      "change": -5
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:biome",
+      "condition": {
+        "type": "origins:temperature",
+        "comparison": "<",
+        "compare_to": 2
+      }
+    }
+  }
+}

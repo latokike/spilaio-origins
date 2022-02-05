@@ -1,0 +1,40 @@
+{
+  "type": "origins:multiple",
+  "increment": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "spilaioorigins:toggle_flight_con",
+      "change": 10
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "spilaioorigins:toggle_flight_con",
+          "comparison": "<",
+          "compare_to": 1000
+        },
+        {
+          "type": "origins:creative_flying"
+        }
+      ]
+    }
+  },
+  "decrement": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:change_resource",
+      "resource": "spilaioorigins:toggle_flight_con",
+      "change": -3
+    },
+    "interval": 1,
+    "condition": {
+      "type": "origins:creative_flying",
+      "inverted": true
+    }
+  },
+  "hidden": true
+}

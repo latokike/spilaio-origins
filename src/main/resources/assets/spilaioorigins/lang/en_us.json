@@ -5,6 +5,8 @@
   "origin.spilaioorigins.rojian.description": "The rojian are a subspecies of humans. They are enhanced by redstone at the cost of their humanity over time.",
   "origin.spilaioorigins.shroomatid.name": "Shroomatid",
   "origin.spilaioorigins.shroomatid.description": "An invasive mushroom species. Shroomatai are hard to kill and are at home in the dark, making them perfect for stealth attacks.",
+  "origin.spilaioorigins.alliqe.name": "Alliqe",
+  "origin.spilaioorigins.alliqe.description": "A distant relative of the allay and vex, they take attributes from both, loving both music and fights",
 
   "power.spilaioorigins.spores.name": "Spores",
   "power.spilaioorigins.spores.description": "Your spores are poisonous, giving you a chance to critically wound something when you hit it.",
@@ -42,7 +44,15 @@
   "power.spilaioorigins.inorganic.description": "You are made primarily out of robotic parts to keep you together, and as a result cannot eat normal food. You need redstone for power.",
   "power.spilaioorigins.underground_life.name": "Underground Inhabitant",
   "power.spilaioorigins.underground_life.description": "Due to being in the nether or underground primarily, you are better at mining, but slower on the surface.",
+  "power.spilaioorigins.flight_ability.name": "Flight",
+  "power.spilaioorigins.flight_ability.description": "When you aren't wet or exhausted from flying a lot, you are able to roam the skies. You also can't fly if you are too hot.",
+  "power.spilaioorigins.alliqe_possession.name": "Alliqe Possession",
+  "power.spilaioorigins.alliqe_possession.description": "Your cousin, the allay, likes the noteblock so much that they will give whatever they have to it. The alliqe are more possessive, causing them to generally keep what they have.",
+  "power.spilaioorigins.elytra_but_no.name": "Winged",
+  "power.spilaioorigins.elytra_but_no.description": "You are a relative to the vex and allay, causing you to have cosmetic wings.",
 
   "death.attack.waterAbsorption": "%1$s drank too much water",
-  "death.attack.waterAbsorption.player": "%1$s drank too much water while being chased by %2$s"
+  "death.attack.waterAbsorption.player": "%1$s drank too much water while being chased by %2$s",
+
+  "container.alliqe_possession": "Alliqe Possession"
 }
