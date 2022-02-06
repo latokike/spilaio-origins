@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "latokike.latoorigins.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ItemStackMixin",
+    "ModifyBehaviorMixin",
+    "TrackTargetGoalMixin",
+    "PlayerEntityMixin"
+  ],
+  "client": [
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  },
+  "refmap": "LatoOrigins-refmap.json"
+}
