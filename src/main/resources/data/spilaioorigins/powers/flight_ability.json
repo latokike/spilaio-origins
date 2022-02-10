@@ -1,5 +1,11 @@
 {
   "type": "origins:multiple",
+  "slow_flying": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "generic.flying_speed"
+    }
+  },
   "flight": {
     "type": "origins:creative_flight",
     "condition": {
