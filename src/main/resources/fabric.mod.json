@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "id": "latoorigins",
+  "id": "spilaioorigins",
   "version": "${version}",
-  "name": "Lato Origins",
+  "name": "Spilaio Origins",
   "description": "Adds more origins to the Origins mod",
   "authors": [
 	"Latokike"
   ],
   "contact": {
-	"homepage": "",
-	"sources": "https://github.com/Latokike/lato-origins"
+	"homepage": "https://www.curseforge.com/minecraft/mc-mods/spilaio-origins",
+	"sources": "https://github.com/latokike/spilaio-origins"
   },
   "license": "MIT",
-  "icon": "assets/latoorigins/icon.png",
+  "icon": "assets/spilaioorigins/icon.png",
   "environment": "*",
   "entrypoints": {
 	"main": [
-	  "latokike.latoorigins.common.LatoOrigins"
+	  "com.github.latokike.SpilaioOrigins"
 	]
   },
   "mixins": [
-	"latoorigins.mixins.json"
+	"spilaioorigins.mixins.json"
   ],
   "depends": {
-	"fabricloader": ">=0.12.0",
-	"fabric": "*",
-	"minecraft": "1.18.x",
-	"origins": ">=1.0.0",
-	"pehkui": ">=2.6.0+1.14.4-1.18"
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.19.x",
+    "origins": ">=1.6.0",
+    "pehkui": ">=3.3.2"
   }
 }
