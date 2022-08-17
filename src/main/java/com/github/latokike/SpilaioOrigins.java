@@ -1,6 +1,5 @@
 package com.github.latokike;
 
-
 import com.github.latokike.registry.*;
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.api.ModInitializer;
@@ -33,7 +32,7 @@ public class SpilaioOrigins implements ModInitializer {
 		LOGGER.info("Spilaio Origins " + VERSION + " is starting. Try caving!");
 
 		ModEvents.init();
-//		ModScaleTypes.init();
+		// ModScaleTypes.init();
 		ModPowers.init();
 	}
 

@@ -1,11 +1,12 @@
 package com.github.latokike.registry;
 
+/*
 import com.github.latokike.SpilaioOrigins;
-//import net.minecraft.entity.Entity;
-//import net.minecraft.util.Identifier;
-//import virtuoel.pehkui.api.*;
-
+import net.minecraft.entity.Entity;
+import net.minecraft.util.Identifier;
+import virtuoel.pehkui.api.*;
 import java.util.Map;
+*/
 
 public class ModScaleTypes {
 /*

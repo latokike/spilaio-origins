@@ -1,5 +1,9 @@
 package com.github.latokike.registry;
 
+import com.github.latokike.SpilaioOrigins;
+import com.github.latokike.power.ExplodePower;
+import com.github.latokike.power.ModifyBehaviorPower;
+import com.github.latokike.power.SpikedPower;
 import io.github.apace100.apoli.data.ApoliDataTypes;
 import io.github.apace100.apoli.power.Active;
 import io.github.apace100.apoli.power.Power;
@@ -10,18 +14,12 @@ import io.github.apace100.apoli.power.factory.condition.ConditionFactory;
 import io.github.apace100.apoli.registry.ApoliRegistries;
 import io.github.apace100.apoli.util.HudRender;
 import io.github.apace100.calio.data.SerializableData;
-import io.github.apace100.calio.data.SerializableDataType;
 import io.github.apace100.calio.data.SerializableDataTypes;
-import com.github.latokike.SpilaioOrigins;
-import com.github.latokike.power.*;
-import net.minecraft.entity.Entity;
-import net.minecraft.entity.EntityType;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 import java.util.LinkedHashMap;
-import java.util.List;
 import java.util.Map;
 
 public class ModPowers {
@@ -62,15 +60,17 @@ public class ModPowers {
 								return power;})
 					.allowCondition());
 
-//	public static final PowerFactory<Power> MODIFY_SIZE = create(
-//			new PowerFactory<>(
-//					new Identifier(SpilaioOrigins.MODID, "modify_size"),
-//					new SerializableData()
-//							.add("scale", SerializableDataTypes.FLOAT),
-//					data -> (type, player) ->
-//							new ModifySizePower(type, player,
-//									data.getFloat("scale")))
-//					.allowCondition());
+/*
+	public static final PowerFactory<Power> MODIFY_SIZE = create(
+			new PowerFactory<>(
+					new Identifier(SpilaioOrigins.MODID, "modify_size"),
+					new SerializableData()
+							.add("scale", SerializableDataTypes.FLOAT),
+					data -> (type, player) ->
+							new ModifySizePower(type, player,
+									data.getFloat("scale")))
+					.allowCondition());
+*/
 
 	public static final PowerFactory<Power> SPIKED = create(
 			new PowerFactory<>(
