@@ -1,17 +1,17 @@
 package com.github.latokike.registry;
 
 import com.github.latokike.SpilaioOrigins;
-import net.fabricmc.fabric.api.tag.TagRegistry;
 import net.minecraft.item.Item;
 import net.minecraft.block.Block;
-import net.minecraft.tag.Tag;
+import net.minecraft.tag.TagKey;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.registry.Registry;
 
 public class ModTags {
-	public static final Tag<Item> GOLDEN_ARMOR = TagRegistry.item(new Identifier(SpilaioOrigins.MODID, "golden_armor"));
-	public static final Tag<Item> GOLDEN_TOOLS = TagRegistry.item(new Identifier(SpilaioOrigins.MODID, "golden_tools"));
-	public static final Tag<Item> NETHERITE_GOLD_TOOLS = TagRegistry.item(new Identifier(SpilaioOrigins.MODID, "netherite_gold_tools"));
-	public static final Tag<Item> ARMOR = TagRegistry.item(new Identifier(SpilaioOrigins.MODID, "armor"));
-	public static final Tag<Item> IRON_TOOLS = TagRegistry.item(new Identifier(SpilaioOrigins.MODID, "iron_tools"));
-	public static final Tag<Block> EDIBLE = TagRegistry.block(new Identifier(SpilaioOrigins.MODID, "edible"));
+	public static final TagKey<Item> GOLDEN_ARMOR = TagKey.of(Registry.ITEM_KEY,new Identifier(SpilaioOrigins.MODID, "golden_armor"));
+	public static final TagKey<Item> GOLDEN_TOOLS = TagKey.of(Registry.ITEM_KEY,new Identifier(SpilaioOrigins.MODID, "golden_tools"));
+	public static final TagKey<Item> NETHERITE_GOLD_TOOLS = TagKey.of(Registry.ITEM_KEY,new Identifier(SpilaioOrigins.MODID, "netherite_gold_tools"));
+	public static final TagKey<Item> ARMOR = TagKey.of(Registry.ITEM_KEY,new Identifier(SpilaioOrigins.MODID, "armor"));
+	public static final TagKey<Item> IRON_TOOLS = TagKey.of(Registry.ITEM_KEY, new Identifier(SpilaioOrigins.MODID, "iron_tools"));
+	public static final TagKey<Block> EDIBLE = TagKey.of(Registry.BLOCK_KEY, new Identifier(SpilaioOrigins.MODID, "edible"));
 }
